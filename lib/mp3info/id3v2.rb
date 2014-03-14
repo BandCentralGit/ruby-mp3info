@@ -490,6 +490,10 @@ class ID3v2 < DelegateClass(Hash)
         end
       end
 
+      # BandCentral Fork
+      # Using only valid encoded chars
+      out = out.chars.select{|i| i.valid_encoding?}.join
+
       if out
         # remove padding zeros for textual tags
         if RUBY_1_8

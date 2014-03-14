@@ -1,6 +1,5 @@
 # ruby-mp3info
-
-* http://github.com/moumar/ruby-mp3info
+# forked from moumar/ruby-mp3info
 
 ## Description
 
